@@ -37,7 +37,7 @@ export const formSchema = z.object({
     aspectRatio: z.string().optional(),
     color: z.string().optional(),
     prompt: z.string().optional(),
-    public: z.string(),
+    publicId: z.string(),
 })
 
 const TransformationForm = ({ action, data = null, userId, type, creditBalance, config = null }: TransformationFormProps) => {
